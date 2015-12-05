@@ -9,7 +9,7 @@
 适用: 某些需要 循环播放 广告，主题内容，活动，新闻内容时。  
 支持： 拖动手势拖动过程中 不滚动  
 
-#使用代码：  
+#使用布局：  
 在layout里写：  
 \<zhangyf.vir56k.autoviewpager.SimpleCycleViewPager  
 android:id="@+id/viewpager"  
@@ -19,7 +19,7 @@ android:layout_margin="0dp"
 android:background="#FF0000"  
 android:padding="0dp"\>\</zhangyf.vir56k.autoviewpager.SimpleCycleViewPager\>  
 
-#在代码里应用：  
+#在代码里写：  
 //设置数据源  
 viewPager.setDatasource(datasource);  
 //设置间隔  
